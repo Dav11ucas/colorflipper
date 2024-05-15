@@ -1,0 +1,43 @@
+.white{
+    background-color: white;
+}
+.black{
+    background-color: black;
+}
+.bisque{
+    background-color: bisque;
+}
+.green{
+    background-color: green;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+}
+
+.main-div{
+    background-color: rgb(44, 44, 44);
+    color: rgb(240, 240, 240);
+    border-radius: 15px;
+    width: 50vh;
+    height: 40vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-shadow: 5px, 10px, 10px, rgba(0, 0, 0, 0.5);
+
+}
+button{
+    background-color: rgb(20, 20, 20);
+    color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 5px;
+    width: 4rem;
+    height: 2rem;
+    font-family: monospace;
+}
